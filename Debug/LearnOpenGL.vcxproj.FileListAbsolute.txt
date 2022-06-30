@@ -1,0 +1,2 @@
+G:\LearnOpenGL\Debug\LearnOpenGL.exe
+G:\LearnOpenGL\Debug\LearnOpenGL.pdb

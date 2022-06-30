@@ -1,0 +1,12 @@
+﻿  BaseLight.cpp
+G:\LearnOpenGL\Shader.h(3,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+G:\LearnOpenGL\Shader.h(44,40): warning C4101: “e”: 未引用的局部变量
+G:\LearnOpenGL\Lession_6_BaseLight\BaseLight.cpp(174,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+G:\LearnOpenGL\Lession_6_BaseLight\BaseLight.cpp(273,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\LearnOpenGL\Lession_6_BaseLight\BaseLight.cpp(274,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\LearnOpenGL\Lession_6_BaseLight\BaseLight.cpp(279,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+G:\LearnOpenGL\Lession_6_BaseLight\BaseLight.cpp(280,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+G:\LearnOpenGL\Lession_6_BaseLight\BaseLight.cpp(281,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\LearnOpenGL\Lession_6_BaseLight\BaseLight.cpp(282,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+G:\LearnOpenGL\Lession_6_BaseLight\BaseLight.cpp(289,31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  LearnOpenGL.vcxproj -> G:\LearnOpenGL\Debug\LearnOpenGL.exe
