@@ -21,10 +21,16 @@
     <ClCompile Include="Shader.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Lession_6_BaseLight\BaseLight.cpp">
+    <ClCompile Include="Camera.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Camera.cpp">
+    <ClCompile Include="mesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Lession_11_ModelLoad\ModelLoad.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -36,6 +42,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

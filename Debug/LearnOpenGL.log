@@ -1,12 +1,9 @@
-﻿  BaseLight.cpp
-G:\LearnOpenGL\Shader.h(3,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-G:\LearnOpenGL\Shader.h(44,40): warning C4101: “e”: 未引用的局部变量
-G:\LearnOpenGL\Lession_6_BaseLight\BaseLight.cpp(174,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-G:\LearnOpenGL\Lession_6_BaseLight\BaseLight.cpp(273,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-G:\LearnOpenGL\Lession_6_BaseLight\BaseLight.cpp(274,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-G:\LearnOpenGL\Lession_6_BaseLight\BaseLight.cpp(279,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-G:\LearnOpenGL\Lession_6_BaseLight\BaseLight.cpp(280,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-G:\LearnOpenGL\Lession_6_BaseLight\BaseLight.cpp(281,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-G:\LearnOpenGL\Lession_6_BaseLight\BaseLight.cpp(282,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-G:\LearnOpenGL\Lession_6_BaseLight\BaseLight.cpp(289,31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
-  LearnOpenGL.vcxproj -> G:\LearnOpenGL\Debug\LearnOpenGL.exe
+﻿LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+ModelLoad.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QAE@XZ)，函数 "private: void __thiscall Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中引用了该符号
+ModelLoad.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QAE@XZ)，函数 "private: void __thiscall Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中引用了该符号
+ModelLoad.obj : error LNK2019: 无法解析的外部符号 "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@PBDI@Z)，函数 "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z) 中引用了该符号
+ModelLoad.obj : error LNK2019: 无法解析的外部符号 "public: char const * __thiscall Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QBEPBDXZ)，函数 "private: void __thiscall Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中引用了该符号
+ModelLoad.obj : error LNK2019: 无法解析的外部符号 _aiGetMaterialTextureCount，函数 "public: unsigned int __thiscall aiMaterial::GetTextureCount(enum aiTextureType)const " (?GetTextureCount@aiMaterial@@QBEIW4aiTextureType@@@Z) 中引用了该符号
+ModelLoad.obj : error LNK2019: 无法解析的外部符号 _aiGetMaterialTexture，函数 "public: enum aiReturn __thiscall aiMaterial::GetTexture(enum aiTextureType,unsigned int,struct aiString *,enum aiTextureMapping *,unsigned int *,float *,enum aiTextureOp *,enum aiTextureMapMode *)const " (?GetTexture@aiMaterial@@QBE?AW4aiReturn@@W4aiTextureType@@IPAUaiString@@PAW4aiTextureMapping@@PAIPAMPAW4aiTextureOp@@PAW4aiTextureMapMode@@@Z) 中引用了该符号
+E:\WenGou\LearnOpenGL\lib\assimp.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\WenGou\LearnOpenGL\Debug\LearnOpenGL.exe : fatal error LNK1120: 6 个无法解析的外部命令
